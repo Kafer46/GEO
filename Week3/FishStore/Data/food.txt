@@ -1,0 +1,4 @@
+1, "Cám viên nổi", 4, 45000, 50, "food_pellet", "Viên nhỏ nổi trên mặt nước, dùng hằng ngày cho cá ăn tầng mặt như cá vàng, cá bảy màu."
+2, "Thức ăn dạng mảnh", 4, 60000, 30, "food_flake", "Mảnh mỏng, mềm, dễ ăn, hợp với cá nhỏ như neon và cá bảy màu."
+3, "Trùn chỉ sấy khô", 4, 35000, 20, "food_bloodworm", "Giàu đạm, giúp cá lên màu và mau lớn. Nên cho ăn bổ sung 2 đến 3 lần mỗi tuần."
+4, "Artemia sấy khô", 4, 80000, 12, "food_artemia", "Giàu dinh dưỡng, hợp với cá con và cá betta."

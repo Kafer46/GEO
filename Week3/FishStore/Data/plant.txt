@@ -1,0 +1,8 @@
+1, "Cây Java Fern", 2, 50000, 40, "plant_javafern", "Dễ trồng, không cần nền, buộc vào đá hoặc lũa."
+2, "Cây Ráy Anubias Nana", 2, 65000, 35, "plant_anubias", "Lá dày, chịu được ánh sáng yếu, lớn chậm."
+3, "Rêu Java", 2, 30000, 60, "plant_moss", "Phủ lũa và đá, là chỗ trú cho cá con và tép."
+4, "Cây Vảy Ốc Đỏ", 2, 25000, 80, "plant_rotala", "Cây cắt cắm hậu cảnh, ngọn ngả đỏ khi đủ sáng."
+5, "Cỏ Ngưu Mao Chiên", 2, 40000, 25, "plant_hairgrass", "Trải nền tiền cảnh, cần ánh sáng mạnh và CO2."
+6, "Cây Hẹ Nước", 2, 20000, 50, "plant_vallisneria", "Lá dài như dải lụa, hợp trồng hậu cảnh bể cao."
+7, "Cây Lưỡi Mác", 2, 55000, 15, "plant_echinodorus", "Lá to bản, làm điểm nhấn giữa bể, cần nền dinh dưỡng."
+8, "Cây Diệp Tài Hồng", 2, 35000, 0, "plant_ludwigia", "Lá hồng đỏ nổi bật, cần ánh sáng tốt để lên màu."

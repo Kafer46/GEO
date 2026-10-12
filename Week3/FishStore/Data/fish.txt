@@ -1,0 +1,8 @@
+1, "Cá Neon Tetra", 1, 20000, 120, "fish_neon", "Cá nhỏ, bơi theo đàn, hợp bể thủy sinh."
+2, "Cá Betta Halfmoon", 1, 85000, 25, "fish_betta", "Đuôi xòe hình bán nguyệt, nên nuôi riêng."
+3, "Cá Bảy Màu", 1, 10000, 200, "fish_guppy", "Dễ nuôi, sinh sản nhanh, nhiều màu sắc."
+4, "Cá Vàng Ranchu", 1, 150000, 12, "fish_ranchu", "Thân tròn, không vây lưng, bơi chậm."
+5, "Cá Koi Mini", 1, 120000, 18, "fish_koi", "Hợp hồ ngoài trời hoặc bể lớn."
+6, "Cá Dĩa", 1, 350000, 6, "fish_discus", "Cần nước sạch và nhiệt độ ổn định."
+7, "Cá Ông Tiên", 1, 45000, 30, "fish_angel", "Dáng cao, vây dài, hợp bể cao."
+8, "Cá Chuột Panda", 1, 35000, 0, "fish_cory", "Sống tầng đáy, giúp dọn thức ăn thừa."
