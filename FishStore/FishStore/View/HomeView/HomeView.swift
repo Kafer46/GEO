@@ -256,7 +256,7 @@ struct ProductSectionView: View {
 }
 
 //------------------------------------
-// Tiêu đề mỗi phần 
+// Tiêu đề mỗi phần
 //------------------------------------
 
 struct SectionHeaderView: View {
