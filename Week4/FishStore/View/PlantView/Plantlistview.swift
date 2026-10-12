@@ -81,33 +81,7 @@ struct PlantListView: View {
 
     /// Dữ liệu mẫu cho danh mục cây thủy sinh.
     private func loadSampleData() {
-        let id = plantCategory.id
-        plants = [
-            Product(name: "Cây Java Fern", categoryId: id, price: 50000,
-                    imageName: "plant_javafern",
-                    description: "Dễ trồng, không cần nền, buộc vào đá hoặc lũa.", stock: 40),
-            Product(name: "Cây Ráy Anubias Nana", categoryId: id, price: 65000,
-                    imageName: "plant_anubias",
-                    description: "Lá dày, chịu được ánh sáng yếu, lớn chậm.", stock: 35),
-            Product(name: "Rêu Java", categoryId: id, price: 30000,
-                    imageName: "plant_moss",
-                    description: "Phủ lũa và đá, là chỗ trú cho cá con và tép.", stock: 60),
-            Product(name: "Cây Vảy Ốc Đỏ", categoryId: id, price: 25000,
-                    imageName: "plant_rotala",
-                    description: "Cây cắt cắm hậu cảnh, ngọn ngả đỏ khi đủ sáng.", stock: 80),
-            Product(name: "Cỏ Ngưu Mao Chiên", categoryId: id, price: 40000,
-                    imageName: "plant_hairgrass",
-                    description: "Trải nền tiền cảnh, cần ánh sáng mạnh và CO2.", stock: 25),
-            Product(name: "Cây Hẹ Nước", categoryId: id, price: 20000,
-                    imageName: "plant_vallisneria",
-                    description: "Lá dài như dải lụa, hợp trồng hậu cảnh bể cao.", stock: 50),
-            Product(name: "Cây Lưỡi Mác", categoryId: id, price: 55000,
-                    imageName: "plant_echinodorus",
-                    description: "Lá to bản, làm điểm nhấn giữa bể, cần nền dinh dưỡng.", stock: 15),
-            Product(name: "Cây Diệp Tài Hồng", categoryId: id, price: 35000,
-                    imageName: "plant_ludwigia",
-                    description: "Lá hồng đỏ nổi bật, cần ánh sáng tốt để lên màu.", stock: 0)
-        ]
+        plants = TextFileStore.loadProducts("plant.txt", category: plantCategory)
     }
 }
 

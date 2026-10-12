@@ -81,25 +81,7 @@ struct FoodListView: View {
 
     /// Dữ liệu mẫu: 4 loại thức ăn cho cá.
     private func loadSampleData() {
-        let id = foodCategory.id
-        foods = [
-            Product(name: "Cám viên nổi", categoryId: id, price: 45000,
-                    imageName: "food_pellet",
-                    description: "Viên nhỏ nổi trên mặt nước, dùng hằng ngày cho cá ăn tầng mặt như cá vàng, cá bảy màu.",
-                    stock: 50),
-            Product(name: "Thức ăn dạng mảnh", categoryId: id, price: 60000,
-                    imageName: "food_flake",
-                    description: "Mảnh mỏng, mềm, dễ ăn, hợp với cá nhỏ như neon và cá bảy màu.",
-                    stock: 30),
-            Product(name: "Trùn chỉ sấy khô", categoryId: id, price: 35000,
-                    imageName: "food_bloodworm",
-                    description: "Giàu đạm, giúp cá lên màu và mau lớn. Nên cho ăn bổ sung 2 đến 3 lần mỗi tuần.",
-                    stock: 20),
-            Product(name: "Artemia sấy khô", categoryId: id, price: 80000,
-                    imageName: "food_artemia",
-                    description: "Giàu dinh dưỡng, hợp với cá con và cá betta.",
-                    stock: 12)
-        ]
+        foods = TextFileStore.loadProducts("food.txt", category: foodCategory)
     }
 }
 

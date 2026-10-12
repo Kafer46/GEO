@@ -82,33 +82,7 @@ struct FishListView: View {
 
     /// Dữ liệu mẫu cho danh mục cá cảnh.
     private func loadSampleData() {
-        let id = fishCategory.id
-        fishes = [
-            Product(name: "Cá Neon Tetra", categoryId: id, price: 20000,
-                    imageName: "fish_neon",
-                    description: "Cá nhỏ, bơi theo đàn, hợp bể thủy sinh.", stock: 120),
-            Product(name: "Cá Betta Halfmoon", categoryId: id, price: 85000,
-                    imageName: "fish_betta",
-                    description: "Đuôi xòe hình bán nguyệt, nên nuôi riêng.", stock: 25),
-            Product(name: "Cá Bảy Màu", categoryId: id, price: 10000,
-                    imageName: "fish_guppy",
-                    description: "Dễ nuôi, sinh sản nhanh, nhiều màu sắc.", stock: 200),
-            Product(name: "Cá Vàng Ranchu", categoryId: id, price: 150000,
-                    imageName: "fish_ranchu",
-                    description: "Thân tròn, không vây lưng, bơi chậm.", stock: 12),
-            Product(name: "Cá Koi Mini", categoryId: id, price: 120000,
-                    imageName: "fish_koi",
-                    description: "Hợp hồ ngoài trời hoặc bể lớn.", stock: 18),
-            Product(name: "Cá Dĩa", categoryId: id, price: 350000,
-                    imageName: "fish_discus",
-                    description: "Cần nước sạch và nhiệt độ ổn định.", stock: 6),
-            Product(name: "Cá Ông Tiên", categoryId: id, price: 45000,
-                    imageName: "fish_angel",
-                    description: "Dáng cao, vây dài, hợp bể cao.", stock: 30),
-            Product(name: "Cá Chuột Panda", categoryId: id, price: 35000,
-                    imageName: "fish_cory",
-                    description: "Sống tầng đáy, giúp dọn thức ăn thừa.", stock: 0)
-        ]
+        fishes = TextFileStore.loadProducts("fish.txt", category: fishCategory)
     }
 }
 
