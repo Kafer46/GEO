@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AA93253308F431E009BB4D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA93252308F431E009BB4D4 /* Assets.xcassets */; };
+		5AA93256308F431E009BB4D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA93255308F431E009BB4D4 /* Preview Assets.xcassets */; };
+		C5D50003308F700009BB4D4A /* SchoolManagementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D50002308F700009BB4D4A /* SchoolManagementApp.swift */; };
+		C5D50006308F700009BB4D4A /* SchoolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D50005308F700009BB4D4A /* SchoolController.swift */; };
+		C5D50009308F700009BB4D4A /* Describable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D50008308F700009BB4D4A /* Describable.swift */; };
+		C5D5000B308F700009BB4D4A /* Enrollment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D5000A308F700009BB4D4A /* Enrollment.swift */; };
+		C5D5000D308F700009BB4D4A /* SchoolError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D5000C308F700009BB4D4A /* SchoolError.swift */; };
+		C5D5000F308F700009BB4D4A /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D5000E308F700009BB4D4A /* Student.swift */; };
+		C5D50011308F700009BB4D4A /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D50010308F700009BB4D4A /* Subject.swift */; };
+		C5D50013308F700009BB4D4A /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D50012308F700009BB4D4A /* Teacher.swift */; };
+		C5D50015308F700009BB4D4A /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D50014308F700009BB4D4A /* Validator.swift */; };
+		C5D50018308F700009BB4D4A /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D50017308F700009BB4D4A /* SampleData.swift */; };
+		C5D5001C308F700009BB4D4A /* RecordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D5001B308F700009BB4D4A /* RecordRow.swift */; };
+		C5D5001F308F700009BB4D4A /* EnrollmentFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D5001E308F700009BB4D4A /* EnrollmentFormView.swift */; };
+		C5D50021308F700009BB4D4A /* EnrollmentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D50020308F700009BB4D4A /* EnrollmentListView.swift */; };
+		C5D50023308F700009BB4D4A /* MarkEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D50022308F700009BB4D4A /* MarkEditView.swift */; };
+		C5D50025308F700009BB4D4A /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D50024308F700009BB4D4A /* MainTabView.swift */; };
+		C5D50028308F700009BB4D4A /* StudentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D50027308F700009BB4D4A /* StudentDetailView.swift */; };
+		C5D5002A308F700009BB4D4A /* StudentFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D50029308F700009BB4D4A /* StudentFormView.swift */; };
+		C5D5002C308F700009BB4D4A /* StudentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D5002B308F700009BB4D4A /* StudentListView.swift */; };
+		C5D5002F308F700009BB4D4A /* SubjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D5002E308F700009BB4D4A /* SubjectListView.swift */; };
+		C5D50032308F700009BB4D4A /* TeacherListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D50031308F700009BB4D4A /* TeacherListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5AA9324B308F431C009BB4D4 /* SchoolManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA93252308F431E009BB4D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AA93255308F431E009BB4D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5D50002308F700009BB4D4A /* SchoolManagementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolManagementApp.swift; sourceTree = "<group>"; };
+		C5D50005308F700009BB4D4A /* SchoolController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolController.swift; sourceTree = "<group>"; };
+		C5D50008308F700009BB4D4A /* Describable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Describable.swift; sourceTree = "<group>"; };
+		C5D5000A308F700009BB4D4A /* Enrollment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enrollment.swift; sourceTree = "<group>"; };
+		C5D5000C308F700009BB4D4A /* SchoolError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolError.swift; sourceTree = "<group>"; };
+		C5D5000E308F700009BB4D4A /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		C5D50010308F700009BB4D4A /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		C5D50012308F700009BB4D4A /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		C5D50014308F700009BB4D4A /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		C5D50017308F700009BB4D4A /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		C5D5001B308F700009BB4D4A /* RecordRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordRow.swift; sourceTree = "<group>"; };
+		C5D5001E308F700009BB4D4A /* EnrollmentFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollmentFormView.swift; sourceTree = "<group>"; };
+		C5D50020308F700009BB4D4A /* EnrollmentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollmentListView.swift; sourceTree = "<group>"; };
+		C5D50022308F700009BB4D4A /* MarkEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkEditView.swift; sourceTree = "<group>"; };
+		C5D50024308F700009BB4D4A /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		C5D50027308F700009BB4D4A /* StudentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailView.swift; sourceTree = "<group>"; };
+		C5D50029308F700009BB4D4A /* StudentFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentFormView.swift; sourceTree = "<group>"; };
+		C5D5002B308F700009BB4D4A /* StudentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListView.swift; sourceTree = "<group>"; };
+		C5D5002E308F700009BB4D4A /* SubjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectListView.swift; sourceTree = "<group>"; };
+		C5D50031308F700009BB4D4A /* TeacherListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AA93248308F431C009BB4D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AA93242308F431B009BB4D4 = {
+			isa = PBXGroup;
+			children = (
+				5AA9324D308F431C009BB4D4 /* SchoolManagement */,
+				5AA9324C308F431C009BB4D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AA9324C308F431C009BB4D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AA9324B308F431C009BB4D4 /* SchoolManagement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AA9324D308F431C009BB4D4 /* SchoolManagement */ = {
+			isa = PBXGroup;
+			children = (
+				C5D50001308F700009BB4D4A /* App */,
+				C5D50004308F700009BB4D4A /* Controllers */,
+				C5D50007308F700009BB4D4A /* Models */,
+				C5D50016308F700009BB4D4A /* SampleData */,
+				C5D50019308F700009BB4D4A /* Views */,
+				5AA93252308F431E009BB4D4 /* Assets.xcassets */,
+				5AA93254308F431E009BB4D4 /* Preview Content */,
+			);
+			path = SchoolManagement;
+			sourceTree = "<group>";
+		};
+		5AA93254308F431E009BB4D4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5AA93255308F431E009BB4D4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5D50001308F700009BB4D4A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C5D50002308F700009BB4D4A /* SchoolManagementApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C5D50004308F700009BB4D4A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5D50005308F700009BB4D4A /* SchoolController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C5D50007308F700009BB4D4A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C5D50008308F700009BB4D4A /* Describable.swift */,
+				C5D5000A308F700009BB4D4A /* Enrollment.swift */,
+				C5D5000C308F700009BB4D4A /* SchoolError.swift */,
+				C5D5000E308F700009BB4D4A /* Student.swift */,
+				C5D50010308F700009BB4D4A /* Subject.swift */,
+				C5D50012308F700009BB4D4A /* Teacher.swift */,
+				C5D50014308F700009BB4D4A /* Validator.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C5D50016308F700009BB4D4A /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				C5D50017308F700009BB4D4A /* SampleData.swift */,
+			);
+			path = SampleData;
+			sourceTree = "<group>";
+		};
+		C5D5001A308F700009BB4D4A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C5D5001B308F700009BB4D4A /* RecordRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C5D5001D308F700009BB4D4A /* Enrollments */ = {
+			isa = PBXGroup;
+			children = (
+				C5D5001E308F700009BB4D4A /* EnrollmentFormView.swift */,
+				C5D50020308F700009BB4D4A /* EnrollmentListView.swift */,
+				C5D50022308F700009BB4D4A /* MarkEditView.swift */,
+			);
+			path = Enrollments;
+			sourceTree = "<group>";
+		};
+		C5D50026308F700009BB4D4A /* Students */ = {
+			isa = PBXGroup;
+			children = (
+				C5D50027308F700009BB4D4A /* StudentDetailView.swift */,
+				C5D50029308F700009BB4D4A /* StudentFormView.swift */,
+				C5D5002B308F700009BB4D4A /* StudentListView.swift */,
+			);
+			path = Students;
+			sourceTree = "<group>";
+		};
+		C5D5002D308F700009BB4D4A /* Subjects */ = {
+			isa = PBXGroup;
+			children = (
+				C5D5002E308F700009BB4D4A /* SubjectListView.swift */,
+			);
+			path = Subjects;
+			sourceTree = "<group>";
+		};
+		C5D50030308F700009BB4D4A /* Teachers */ = {
+			isa = PBXGroup;
+			children = (
+				C5D50031308F700009BB4D4A /* TeacherListView.swift */,
+			);
+			path = Teachers;
+			sourceTree = "<group>";
+		};
+		C5D50019308F700009BB4D4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C5D5001A308F700009BB4D4A /* Components */,
+				C5D5001D308F700009BB4D4A /* Enrollments */,
+				C5D50024308F700009BB4D4A /* MainTabView.swift */,
+				C5D50026308F700009BB4D4A /* Students */,
+				C5D5002D308F700009BB4D4A /* Subjects */,
+				C5D50030308F700009BB4D4A /* Teachers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AA9324A308F431C009BB4D4 /* SchoolManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA93259308F431E009BB4D4 /* Build configuration list for PBXNativeTarget "SchoolManagement" */;
+			buildPhases = (
+				5AA93247308F431C009BB4D4 /* Sources */,
+				5AA93248308F431C009BB4D4 /* Frameworks */,
+				5AA93249308F431C009BB4D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchoolManagement;
+			productName = SchoolManagement;
+			productReference = 5AA9324B308F431C009BB4D4 /* SchoolManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AA93243308F431B009BB4D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5AA9324A308F431C009BB4D4 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5AA93246308F431B009BB4D4 /* Build configuration list for PBXProject "SchoolManagement" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AA93242308F431B009BB4D4;
+			productRefGroup = 5AA9324C308F431C009BB4D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AA9324A308F431C009BB4D4 /* SchoolManagement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AA93249308F431C009BB4D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA93256308F431E009BB4D4 /* Preview Assets.xcassets in Resources */,
+				5AA93253308F431E009BB4D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AA93247308F431C009BB4D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D50003308F700009BB4D4A /* SchoolManagementApp.swift in Sources */,
+				C5D50006308F700009BB4D4A /* SchoolController.swift in Sources */,
+				C5D50009308F700009BB4D4A /* Describable.swift in Sources */,
+				C5D5000B308F700009BB4D4A /* Enrollment.swift in Sources */,
+				C5D5000D308F700009BB4D4A /* SchoolError.swift in Sources */,
+				C5D5000F308F700009BB4D4A /* Student.swift in Sources */,
+				C5D50011308F700009BB4D4A /* Subject.swift in Sources */,
+				C5D50013308F700009BB4D4A /* Teacher.swift in Sources */,
+				C5D50015308F700009BB4D4A /* Validator.swift in Sources */,
+				C5D50018308F700009BB4D4A /* SampleData.swift in Sources */,
+				C5D5001C308F700009BB4D4A /* RecordRow.swift in Sources */,
+				C5D5001F308F700009BB4D4A /* EnrollmentFormView.swift in Sources */,
+				C5D50021308F700009BB4D4A /* EnrollmentListView.swift in Sources */,
+				C5D50023308F700009BB4D4A /* MarkEditView.swift in Sources */,
+				C5D50025308F700009BB4D4A /* MainTabView.swift in Sources */,
+				C5D50028308F700009BB4D4A /* StudentDetailView.swift in Sources */,
+				C5D5002A308F700009BB4D4A /* StudentFormView.swift in Sources */,
+				C5D5002C308F700009BB4D4A /* StudentListView.swift in Sources */,
+				C5D5002F308F700009BB4D4A /* SubjectListView.swift in Sources */,
+				C5D50032308F700009BB4D4A /* TeacherListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5AA93257308F431E009BB4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AA93258308F431E009BB4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AA9325A308F431E009BB4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SchoolManagement/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wujunjie.SchoolManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AA9325B308F431E009BB4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SchoolManagement/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wujunjie.SchoolManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AA93246308F431B009BB4D4 /* Build configuration list for PBXProject "SchoolManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA93257308F431E009BB4D4 /* Debug */,
+				5AA93258308F431E009BB4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA93259308F431E009BB4D4 /* Build configuration list for PBXNativeTarget "SchoolManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA9325A308F431E009BB4D4 /* Debug */,
+				5AA9325B308F431E009BB4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AA93243308F431B009BB4D4 /* Project object */;
+}
