@@ -31,6 +31,7 @@ final class OrderStore {
         save()
     }
 
+    @MainActor
     func loadRoutes() async {
         for order in orders where order.routeDistanceKm == nil {
             if let result = await MapService.getRoute(from: order.restaurant.coordinate, to: order.coordinate) {

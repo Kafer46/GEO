@@ -3,23 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5AA93253308F431E009BB4D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA93252308F431E009BB4D4 /* Assets.xcassets */; };
+		5AA93256308F431E009BB4D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA93255308F431E009BB4D4 /* Preview Assets.xcassets */; };
+		B5C50002308F700009BB4D4A /* AddComputerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C50001308F700009BB4D4A /* AddComputerView.swift */; };
+		B5C50004308F700009BB4D4A /* CheckComputerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C50003308F700009BB4D4A /* CheckComputerView.swift */; };
+		B5C50006308F700009BB4D4A /* Computer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C50005308F700009BB4D4A /* Computer.swift */; };
+		B5C50008308F700009BB4D4A /* ComputerLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C50007308F700009BB4D4A /* ComputerLabApp.swift */; };
+		B5C5000A308F700009BB4D4A /* ComputerLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C50009308F700009BB4D4A /* ComputerLabView.swift */; };
+		B5C5000C308F700009BB4D4A /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C5000B308F700009BB4D4A /* StatisticsView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		A1B2C6353061256E00BE76BD /* ComputerLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComputerLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA9324B308F431C009BB4D4 /* ComputerLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComputerLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA93252308F431E009BB4D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AA93255308F431E009BB4D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5C50001308F700009BB4D4A /* AddComputerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddComputerView.swift; sourceTree = "<group>"; };
+		B5C50003308F700009BB4D4A /* CheckComputerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckComputerView.swift; sourceTree = "<group>"; };
+		B5C50005308F700009BB4D4A /* Computer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Computer.swift; sourceTree = "<group>"; };
+		B5C50007308F700009BB4D4A /* ComputerLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerLabApp.swift; sourceTree = "<group>"; };
+		B5C50009308F700009BB4D4A /* ComputerLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerLabView.swift; sourceTree = "<group>"; };
+		B5C5000B308F700009BB4D4A /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		A1B2C6373061256E00BE76BD /* ComputerLab */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ComputerLab;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		A1B2C6323061256E00BE76BD /* Frameworks */ = {
+		5AA93248308F431C009BB4D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,103 +40,128 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1B2C62C3061256E00BE76BD = {
+		5AA93242308F431B009BB4D4 = {
 			isa = PBXGroup;
 			children = (
-				A1B2C6373061256E00BE76BD /* ComputerLab */,
-				A1B2C6363061256E00BE76BD /* Products */,
+				5AA9324D308F431C009BB4D4 /* ComputerLab */,
+				5AA9324C308F431C009BB4D4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A1B2C6363061256E00BE76BD /* Products */ = {
+		5AA9324C308F431C009BB4D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1B2C6353061256E00BE76BD /* ComputerLab.app */,
+				5AA9324B308F431C009BB4D4 /* ComputerLab.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5AA9324D308F431C009BB4D4 /* ComputerLab */ = {
+			isa = PBXGroup;
+			children = (
+				B5C50001308F700009BB4D4A /* AddComputerView.swift */,
+				B5C50003308F700009BB4D4A /* CheckComputerView.swift */,
+				B5C50005308F700009BB4D4A /* Computer.swift */,
+				B5C50007308F700009BB4D4A /* ComputerLabApp.swift */,
+				B5C50009308F700009BB4D4A /* ComputerLabView.swift */,
+				B5C5000B308F700009BB4D4A /* StatisticsView.swift */,
+				5AA93252308F431E009BB4D4 /* Assets.xcassets */,
+				5AA93254308F431E009BB4D4 /* Preview Content */,
+			);
+			path = ComputerLab;
+			sourceTree = "<group>";
+		};
+		5AA93254308F431E009BB4D4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5AA93255308F431E009BB4D4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1B2C6343061256E00BE76BD /* ComputerLab */ = {
+		5AA9324A308F431C009BB4D4 /* ComputerLab */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1B2C6563061256F00BE76BD /* Build configuration list for PBXNativeTarget "ComputerLab" */;
+			buildConfigurationList = 5AA93259308F431E009BB4D4 /* Build configuration list for PBXNativeTarget "ComputerLab" */;
 			buildPhases = (
-				A1B2C6313061256E00BE76BD /* Sources */,
-				A1B2C6323061256E00BE76BD /* Frameworks */,
-				A1B2C6333061256E00BE76BD /* Resources */,
+				5AA93247308F431C009BB4D4 /* Sources */,
+				5AA93248308F431C009BB4D4 /* Frameworks */,
+				5AA93249308F431C009BB4D4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				A1B2C6373061256E00BE76BD /* ComputerLab */,
-			);
 			name = ComputerLab;
-			packageProductDependencies = (
-			);
 			productName = ComputerLab;
-			productReference = A1B2C6353061256E00BE76BD /* ComputerLab.app */;
+			productReference = 5AA9324B308F431C009BB4D4 /* ComputerLab.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A1B2C62D3061256E00BE76BD /* Project object */ = {
+		5AA93243308F431B009BB4D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2630;
-				LastUpgradeCheck = 2630;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					A1B2C6343061256E00BE76BD = {
-						CreatedOnToolsVersion = 26.3;
+					5AA9324A308F431C009BB4D4 = {
+						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = A1B2C6303061256E00BE76BD /* Build configuration list for PBXProject "ComputerLab" */;
+			buildConfigurationList = 5AA93246308F431B009BB4D4 /* Build configuration list for PBXProject "ComputerLab" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = A1B2C62C3061256E00BE76BD;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = A1B2C6363061256E00BE76BD /* Products */;
+			mainGroup = 5AA93242308F431B009BB4D4;
+			productRefGroup = 5AA9324C308F431C009BB4D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1B2C6343061256E00BE76BD /* ComputerLab */,
+				5AA9324A308F431C009BB4D4 /* ComputerLab */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A1B2C6333061256E00BE76BD /* Resources */ = {
+		5AA93249308F431C009BB4D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA93256308F431E009BB4D4 /* Preview Assets.xcassets in Resources */,
+				5AA93253308F431E009BB4D4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1B2C6313061256E00BE76BD /* Sources */ = {
+		5AA93247308F431C009BB4D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C50002308F700009BB4D4A /* AddComputerView.swift in Sources */,
+				B5C50004308F700009BB4D4A /* CheckComputerView.swift in Sources */,
+				B5C50006308F700009BB4D4A /* Computer.swift in Sources */,
+				B5C50008308F700009BB4D4A /* ComputerLabApp.swift in Sources */,
+				B5C5000A308F700009BB4D4A /* ComputerLabView.swift in Sources */,
+				B5C5000C308F700009BB4D4A /* StatisticsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A1B2C6543061256F00BE76BD /* Debug */ = {
+		5AA93257308F431E009BB4D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -177,7 +213,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -188,7 +224,7 @@
 			};
 			name = Debug;
 		};
-		A1B2C6553061256F00BE76BD /* Release */ = {
+		5AA93258308F431E009BB4D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -244,13 +280,14 @@
 			};
 			name = Release;
 		};
-		A1B2C6573061256F00BE76BD /* Debug */ = {
+		5AA9325A308F431E009BB4D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ComputerLab/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -265,23 +302,20 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wujunjie.ComputerLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A1B2C6583061256F00BE76BD /* Release */ = {
+		5AA9325B308F431E009BB4D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ComputerLab/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -296,11 +330,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wujunjie.ComputerLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1B2C6303061256E00BE76BD /* Build configuration list for PBXProject "ComputerLab" */ = {
+		5AA93246308F431B009BB4D4 /* Build configuration list for PBXProject "ComputerLab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1B2C6543061256F00BE76BD /* Debug */,
-				A1B2C6553061256F00BE76BD /* Release */,
+				5AA93257308F431E009BB4D4 /* Debug */,
+				5AA93258308F431E009BB4D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1B2C6563061256F00BE76BD /* Build configuration list for PBXNativeTarget "ComputerLab" */ = {
+		5AA93259308F431E009BB4D4 /* Build configuration list for PBXNativeTarget "ComputerLab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1B2C6573061256F00BE76BD /* Debug */,
-				A1B2C6583061256F00BE76BD /* Release */,
+				5AA9325A308F431E009BB4D4 /* Debug */,
+				5AA9325B308F431E009BB4D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A1B2C62D3061256E00BE76BD /* Project object */;
+	rootObject = 5AA93243308F431B009BB4D4 /* Project object */;
 }

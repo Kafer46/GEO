@@ -3,23 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5AA93253308F431E009BB4D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA93252308F431E009BB4D4 /* Assets.xcassets */; };
+		5AA93256308F431E009BB4D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA93255308F431E009BB4D4 /* Preview Assets.xcassets */; };
+		B3C30002308F700009BB4D4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C30001308F700009BB4D4A /* ContentView.swift */; };
+		B3C30004308F700009BB4D4A /* NumberMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C30003308F700009BB4D4A /* NumberMath.swift */; };
+		B3C30006308F700009BB4D4A /* NumberToolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C30005308F700009BB4D4A /* NumberToolsApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		A1B2C4353061256E00BE76BD /* NumberTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA9324B308F431C009BB4D4 /* NumberTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA93252308F431E009BB4D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AA93255308F431E009BB4D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3C30001308F700009BB4D4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3C30003308F700009BB4D4A /* NumberMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberMath.swift; sourceTree = "<group>"; };
+		B3C30005308F700009BB4D4A /* NumberToolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberToolsApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		A1B2C4373061256E00BE76BD /* NumberTools */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = NumberTools;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		A1B2C4323061256E00BE76BD /* Frameworks */ = {
+		5AA93248308F431C009BB4D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,103 +34,122 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1B2C42C3061256E00BE76BD = {
+		5AA93242308F431B009BB4D4 = {
 			isa = PBXGroup;
 			children = (
-				A1B2C4373061256E00BE76BD /* NumberTools */,
-				A1B2C4363061256E00BE76BD /* Products */,
+				5AA9324D308F431C009BB4D4 /* NumberTools */,
+				5AA9324C308F431C009BB4D4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A1B2C4363061256E00BE76BD /* Products */ = {
+		5AA9324C308F431C009BB4D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1B2C4353061256E00BE76BD /* NumberTools.app */,
+				5AA9324B308F431C009BB4D4 /* NumberTools.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5AA9324D308F431C009BB4D4 /* NumberTools */ = {
+			isa = PBXGroup;
+			children = (
+				B3C30001308F700009BB4D4A /* ContentView.swift */,
+				B3C30003308F700009BB4D4A /* NumberMath.swift */,
+				B3C30005308F700009BB4D4A /* NumberToolsApp.swift */,
+				5AA93252308F431E009BB4D4 /* Assets.xcassets */,
+				5AA93254308F431E009BB4D4 /* Preview Content */,
+			);
+			path = NumberTools;
+			sourceTree = "<group>";
+		};
+		5AA93254308F431E009BB4D4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5AA93255308F431E009BB4D4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1B2C4343061256E00BE76BD /* NumberTools */ = {
+		5AA9324A308F431C009BB4D4 /* NumberTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1B2C4563061256F00BE76BD /* Build configuration list for PBXNativeTarget "NumberTools" */;
+			buildConfigurationList = 5AA93259308F431E009BB4D4 /* Build configuration list for PBXNativeTarget "NumberTools" */;
 			buildPhases = (
-				A1B2C4313061256E00BE76BD /* Sources */,
-				A1B2C4323061256E00BE76BD /* Frameworks */,
-				A1B2C4333061256E00BE76BD /* Resources */,
+				5AA93247308F431C009BB4D4 /* Sources */,
+				5AA93248308F431C009BB4D4 /* Frameworks */,
+				5AA93249308F431C009BB4D4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				A1B2C4373061256E00BE76BD /* NumberTools */,
-			);
 			name = NumberTools;
-			packageProductDependencies = (
-			);
 			productName = NumberTools;
-			productReference = A1B2C4353061256E00BE76BD /* NumberTools.app */;
+			productReference = 5AA9324B308F431C009BB4D4 /* NumberTools.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A1B2C42D3061256E00BE76BD /* Project object */ = {
+		5AA93243308F431B009BB4D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2630;
-				LastUpgradeCheck = 2630;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					A1B2C4343061256E00BE76BD = {
-						CreatedOnToolsVersion = 26.3;
+					5AA9324A308F431C009BB4D4 = {
+						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = A1B2C4303061256E00BE76BD /* Build configuration list for PBXProject "NumberTools" */;
+			buildConfigurationList = 5AA93246308F431B009BB4D4 /* Build configuration list for PBXProject "NumberTools" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = A1B2C42C3061256E00BE76BD;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
-			productRefGroup = A1B2C4363061256E00BE76BD /* Products */;
+			mainGroup = 5AA93242308F431B009BB4D4;
+			productRefGroup = 5AA9324C308F431C009BB4D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1B2C4343061256E00BE76BD /* NumberTools */,
+				5AA9324A308F431C009BB4D4 /* NumberTools */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A1B2C4333061256E00BE76BD /* Resources */ = {
+		5AA93249308F431C009BB4D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA93256308F431E009BB4D4 /* Preview Assets.xcassets in Resources */,
+				5AA93253308F431E009BB4D4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1B2C4313061256E00BE76BD /* Sources */ = {
+		5AA93247308F431C009BB4D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3C30002308F700009BB4D4A /* ContentView.swift in Sources */,
+				B3C30004308F700009BB4D4A /* NumberMath.swift in Sources */,
+				B3C30006308F700009BB4D4A /* NumberToolsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A1B2C4543061256F00BE76BD /* Debug */ = {
+		5AA93257308F431E009BB4D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -177,7 +201,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -188,7 +212,7 @@
 			};
 			name = Debug;
 		};
-		A1B2C4553061256F00BE76BD /* Release */ = {
+		5AA93258308F431E009BB4D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +258,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -244,13 +268,14 @@
 			};
 			name = Release;
 		};
-		A1B2C4573061256F00BE76BD /* Debug */ = {
+		5AA9325A308F431E009BB4D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NumberTools/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -265,23 +290,20 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wujunjie.NumberTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A1B2C4583061256F00BE76BD /* Release */ = {
+		5AA9325B308F431E009BB4D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NumberTools/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -296,11 +318,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wujunjie.NumberTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,25 +327,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1B2C4303061256E00BE76BD /* Build configuration list for PBXProject "NumberTools" */ = {
+		5AA93246308F431B009BB4D4 /* Build configuration list for PBXProject "NumberTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1B2C4543061256F00BE76BD /* Debug */,
-				A1B2C4553061256F00BE76BD /* Release */,
+				5AA93257308F431E009BB4D4 /* Debug */,
+				5AA93258308F431E009BB4D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1B2C4563061256F00BE76BD /* Build configuration list for PBXNativeTarget "NumberTools" */ = {
+		5AA93259308F431E009BB4D4 /* Build configuration list for PBXNativeTarget "NumberTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1B2C4573061256F00BE76BD /* Debug */,
-				A1B2C4583061256F00BE76BD /* Release */,
+				5AA9325A308F431E009BB4D4 /* Debug */,
+				5AA9325B308F431E009BB4D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A1B2C42D3061256E00BE76BD /* Project object */;
+	rootObject = 5AA93243308F431B009BB4D4 /* Project object */;
 }
